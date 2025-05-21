@@ -1,10 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // ← NUEVO
 import '../styles/AdminPanel.css';
-import pencilIcon from '../assets/pencil_12126459.png';
-import trashIcon from '../assets/trash_13444199.png';
-import haciaAtras from '../assets/hacia-atras.png';
-
 
 const booksData = [
   {
@@ -68,7 +64,7 @@ export default function AdminPanel() {
     <div className="admin-container">
       <div className="header-admin">
         <button className='edit-button icon-button' onClick={() => navigate('/admin')}>
-          <img src= {haciaAtras} alt='Atras' />
+          <img src='/src/assets/hacia-atras.png' alt='Atras' />
         </button>
         <h1>PANEL DEL ADMINISTRADOR</h1>
       </div>
@@ -143,10 +139,10 @@ export default function AdminPanel() {
               <td>{libro.categoria || 'N/A'}</td>
               <td className="acciones">
                 <button className="edit-button icon-button" onClick={() => navigate('/update')}>
-                  <img src={pencilIcon} alt='Editar' />
+                  <img src='/src/assets/pencil_12126459.png' alt='Editar' />
                 </button>
                 <button className="delete-button icon-button">
-                  <img src={trashIcon} alt='Eliminar' />
+                  <img src='/src/assets/trash_13444199.png' alt='Eliminar' />
                 </button>
               </td>
             </tr>
