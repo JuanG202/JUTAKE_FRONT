@@ -53,7 +53,9 @@ class Login extends React.Component {
                 onChange={this.handleChange}
               />
             </FormGroup>
+            <Link to="/admin"> 
             <Button>Iniciar sesión</Button>
+            </Link>
             <p>
               ¿Aun no estás registrado? <Link to="/register">Regístrate</Link>
             </p>
