@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import '../Styles/RegisterLoan.css';
+import '../styles/RegisterLoan.css';
 
 const LoanForm = () => {
   const [loanData, setLoanData] = useState({

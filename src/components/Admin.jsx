@@ -1,7 +1,7 @@
 // src/components/Admin.jsx
 import React from 'react';
 import { useNavigate } from 'react-router-dom';
-import '../Styles/Admin.css';
+import '../styles/Admin.css';
 
 function Admin() {
   const navigate = useNavigate();

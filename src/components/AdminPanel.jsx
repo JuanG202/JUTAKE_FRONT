@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom'; // ← NUEVO
-import '../Styles/AdminPanel.css';
+import '../styles/AdminPanel.css';
 
 const booksData = [
   {

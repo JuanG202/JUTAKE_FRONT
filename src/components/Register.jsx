@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Button, Form, FormGroup, Label, Input } from 'reactstrap';
-import '../Styles/Login.css';
+import '../styles/Login.css';
 import libreriaImg from '../assets/libreria.png';
 
 class Register extends React.Component {
